@@ -1,0 +1,214 @@
+{# index.twig #}
+<section class="calculator">
+	<div class="container lg-xl">
+		<div class="income">
+			<div class="income__proc">
+				<svg role="img" class="square-percent">
+	  				<use xlink:href="#square-percent"></use>
+				</svg>
+			</div>
+			<h2 class="income__title title">
+				Посчитайте доходность ваших вложений
+			</h2>
+			<div class="income__calc">
+				<div class="income__calc-invest" id = "income__calc-invest">
+					<h4 class="income__calc-title">
+						Вы готовы инвестировать
+					</h4>
+					<div class="income__calc-maney" onclick="o2">
+						<div class="income__calc-month">
+							<div class= "income__price">
+								<input class="income__input" type="text" value="33 333" id="inp" pattern="/\B(?=(\d{4})+(?!\d))/g, " "">
+							</div>
+							<div class="income__r-is-month">рублей в месяц</div>
+						</div>
+						<div class="income__calc-or">или</div>
+						<div class="income__calc-year">
+							<div class="income__price">
+								<input class="income__input" type="text" value="400 000" id = "input">
+							</div>
+							<div class="income__r-is-year">рублей в год</div>
+						</div>
+					</div>
+					<div id="income__slider"></div>
+				</div>
+				<div class="income__calc-earnings">
+					<h4 class="income__calc-title">
+						Рассчитываете на доходность
+					</h4>
+					<div class="income__calc-all" onclick="o2.toggleUl(this)">
+						<div class="income__midle-lvl">
+							до
+							<span class="income__ispercenttest">
+								30%
+							</span>
+							<span class="income__calc-middletest">
+								Средний уровень риска
+							</span>
+						</div>
+						<div class="income__click-image">
+							<svg role="img" class="vector-2 _vector-2">
+		 						<use xlink:href="#vector-2"></use>
+							</svg>
+						</div>
+						<ul class="income__list">
+						<li class="income__list-item incom__first-item-1 shadow" data-id = "0" onclick = "o2.replacement(this)">
+							до
+							<span class="income__ispercent">
+								30%
+							</span>
+							<span class="income__calc-middle">
+								Средний уровень риска
+							</span>
+						</li>
+						<li class="income__list-item incom__first-item-1" data-id = "1" onclick = "o2.replacement(this)">
+							до
+							<span class="income__ispercent">
+								20%
+							</span>
+							<span class="income__calc-middle">
+								Средний уровень рискаs
+							</span>
+						</li>
+						<li class="income__list-item" data-id = "2" onclick = "o2.replacement(this)">
+							до
+							<span class="income__ispercent">
+								15%
+							</span>
+							<span class="income__calc-middle">
+								Соотношением доходности
+							</span>
+						</li>
+						<li class="income__list-item" data-id = "3" onclick = "o2.replacement(this)">
+							до
+							<span class="income__ispercent">
+								9%
+							</span>
+							<span class="income__calc-middle">
+								Модельный портфель
+							</span>
+						</li>
+						<li class="income__list-item" data-id = "4" onclick = "o2.replacement(this)">
+							до
+							<span class="income__ispercent">
+								20%
+							</span>
+							<span class="income__calc-middle">
+								Модельный портфель риска
+							</span>
+						</li>
+						<li class="income__list-item" data-id = "5" onclick = "o2.replacement(this)">
+							до
+							<span class="income__ispercent">
+								30%
+							</span>
+							<span class="income__calc-middle">
+								Портфель уровень риска
+							</span>
+						</li>
+					</ul>
+					</div>
+
+					<div class="income__bot-border"></div>
+				</div>
+			</div>
+			<h3 class="income__inver-year">Ваша инвестиция в первый год</h3>
+			<div class="income__table">
+				<div class="income__table-row">
+					<div class="income__table-row-two">
+						<div class="income__table-coll income__first" id = "all100">
+							400 000
+						</div>
+						<div class="income__table-coll income__second-coll income__only-second">
+							100%
+						</div>
+					</div>
+					<div class="income__table-coll income__third-coll">
+						Сумма вашей инвестиции
+					</div>
+				</div>
+				<div class="income__table-row">
+					<div class="income__table-row-two">
+						<div class="income__table-coll income__first-coll" id="all25">
+							<span class = "income__before">до</span> 100 000
+						</div>
+						<div class="income__table-coll income__second-coll income__percent income__only-second-2">
+							<span>до</span> 25%
+						</div>
+					</div>
+					<div class="income__table-coll income__third-coll income__only-third">
+						Потенциальный рост стоимости акций
+					</div>
+				</div>
+				<div class="income__table-row income-last">
+					<div class="income__table-row-two">
+						<div class="income__table-coll income__first-coll income__table-coll_mod" id="all5">
+							<span>до</span> 20 000
+						</div>
+						<div class="income__table-coll income__second-coll income__table-coll_mod income__perc income__only-second-3">
+							<span>до</span> 5%
+						</div>
+					</div>
+					<div class="income__table-coll income__third-coll income__table-coll_mod income__only-third-2">
+						Потенциальная доходность от выплаты дивидендов
+					</div>
+				</div>
+			</div>
+			<div class="income__dop-table">
+				<div class="income__dop-table-row">
+					<div class="income__table-row-two">
+						<div class="income__dop-table-coll dop-first" id="allsum">
+							=520 000
+						</div>
+						<div class="income__dop-table-coll dop-second income__dop-perc-sum">
+							<span>до</span> 30%
+						</div>
+					</div>
+					<div class="income__dop-table-coll-text dop-third">
+						Потенциальная годовая доходность стратегии
+					</div>
+				</div>
+			</div>
+			<div class="income__strategy">
+				<div class="income__strategy-foot">
+					<div class="income__strategy-portfplio">
+						<div class="income__strategy-percent">
+							<span class="income__strategy-percent-rub">в рублях, до</span>
+							<span class="income__strategy-percent-numeral">30%</span>
+						</div>
+						<div class="income__model-portfolio">
+							<span class	= "income__model-portfolio-text">Модельный портфель российских акций со средним уровнем риска </span>
+							<div class="income__top-word strategy-name">
+								Выбор ITI Capital
+							</div>
+							<div class="income__paragraph-block">
+								<p class="income__paragraph first">Эксперты ITI Capital отобрали акции с хорошими перспективами роста котировок.</p>
+								<p class="income__paragraph second">Основные секторы инвестирования: нефтегазовый, горнодобывающий, технологии, финансы.</p>
+								<p class="income__paragraph third">50 000 руб. — минимальная сумма инвестиции.</p>
+							</div>
+						</div>
+					</div>
+					<div class="income__foot-is-block">
+						<div class="income__partners">
+							<svg role="img" class="logo-yandex">
+								<use xlink:href="#logo-yandex"></use>
+							</svg>
+							<svg role="img" class="sberbank-logo">
+								<use xlink:href="#sberbank-logo"></use>
+							</svg>
+							<svg role="img" class="novatek">
+								<use xlink:href="#novatek"></use>
+							</svg>
+							<div>
+								<img src="img/invalid-name@3x.png" alt="">
+							</div>
+						</div>
+							<a href="#" class="strategy__button-link strategy__button">
+								Выбрать этот модельный портфель →
+							</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

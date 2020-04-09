@@ -1,0 +1,159 @@
+.header
+{
+	background-image: url("../img/group-19-1@2x.png");
+	padding-bottom: 194px;
+	background-position: center;
+  background-size: cover;
+}
+.header__top
+{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 34px;
+  padding-left:24px;
+  padding-right: 19px;
+  line-height:1px;
+}
+.header__top-image img
+{
+	width: 196px;
+  height: 47px;
+}
+.header__top-numb
+{
+	display:flex;
+	align-items:center;
+}
+.header__top-numb-phone-img
+{
+	display:flex;
+	margin-right: 9.5px;
+}
+.header__top-numb a
+{
+	width: 201px;
+  height: 31px;
+  font-family: 'Lato-Regular';
+  font-size: 21px;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #292929;
+}
+.header__main
+{
+	text-align:-webkit-center;
+	margin-top: 57.5px;
+}
+.header__title
+{
+  font-family: 'Aeroport';
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #292929;
+  margin-bottom: 20px;
+}
+.header__sub-title
+{
+  font-family: 'Aeroport';
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #292929;
+  margin-bottom: 20px;
+}
+.header__sub-title_red
+{
+  color:#ec231a;
+  margin-bottom: 35px;
+}
+.header__line
+{
+  transform-origin: 50% 50%;
+  text-align: -webkit-center;
+}
+.header__dop-line
+{
+	height: 4px;
+  margin-bottom: 5px;
+  width: 49px;
+  background-color: #a8d0e3;
+}
+.header__line_rotate :first-child
+{
+	transform: translate(-19px, 0px) rotate(27deg);
+}
+.header__line_rotate :last-child
+{
+	transform: translate(23px, -9px) rotate(153deg);
+}
+  .header__mobile-image
+  {
+    display:none
+  }
+@media (max-width: 466px) {
+  .header
+  {
+    padding-bottom: 218px;
+  }
+  .header__title
+  {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .header__mobile-image
+  {
+    display:block;
+  }
+  .header__top-numb-phone-img, .header__top-numb a
+  {
+    display: none;
+  }
+  .header__top
+  {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .header__sub-title
+  {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  .header__sub-title_red
+  {
+    margin-bottom: 44px;
+  }
+}
+@media (max-width: 322px) {
+  .header
+  {
+    padding-bottom: 218px;
+  }
+  .header__title
+  {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .header__mobile-image
+  {
+    display:block;
+  }
+  .header__top-numb-phone-img, .header__top-numb a
+  {
+    display: none;
+  }
+  .header__top
+  {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .header__sub-title
+  {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  .header__sub-title_red
+  {
+    margin-bottom: 44px;
+  }
+}

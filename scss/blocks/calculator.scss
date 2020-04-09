@@ -1,0 +1,1025 @@
+.income
+{
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+  padding-top:53px;
+  padding-bottom: 20px;
+  margin-top: -163px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.income__proc
+{
+	text-align:-webkit-center;
+  line-height:0;
+  margin-bottom: 11px;
+}
+.income__title
+{
+  text-align: center;
+  margin-bottom: 26px;
+  line-height: 1.76;
+}
+.income__calc
+{
+	display:flex;
+}
+.income__calc-invest
+{
+	border-right:1px solid #d8d8d8;
+	padding-right: 45px;
+}
+.income__calc-maney
+{
+	display:flex;
+	align-items:center;
+  width: 412px;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+.income__calc-or
+{
+	margin-right: 8px;
+	margin-left: 8px;
+}
+.income__calc-month
+{
+	border:solid 2px #a8d0e3;
+	text-align: end;
+	padding:12px 0px 12px 24px;
+}
+.income__input
+{
+	width: 134.6px;
+  height: auto;
+  font-family: 'Aeroport';
+  font-size: 30px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: #131313;
+  font-size: 30px;
+  text-align: end;
+  border:none;
+  padding-right: 15px;
+}
+.income__r-is-month
+{
+	width: auto;
+  height: auto;
+  font-family: 'Lato-Regular';
+  font-size: 12px;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #808080;
+  margin-right: 15px;
+}
+.income__calc-year
+{
+	border:solid 2px #a8d0e3;
+	text-align: end;
+	padding:12px 0px 12px 24px;
+}
+.income__r-is-year
+{
+	width: auto;
+  height: auto;
+  font-family: 'Lato-Regular';
+  font-size: 12px;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #808080;
+  margin-right: 12px;
+}
+.income__calc-tests-image
+{
+	height: 40px;
+}
+.income__calc-earnings
+{
+	padding-left:41px;
+  position: relative;
+}
+.income__calc-title
+{
+  font-family: 'Lato-Regular';
+  font-size: 18px;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #131313;
+  margin-bottom: 20px;
+}
+.income__calc-invest .income__calc-title
+{
+  margin-left: 46px;
+  margin-bottom: 20px;
+}
+.income__calc-all
+{
+	display: block;
+	//justify-content: space-around;
+	border: solid 2px #a8d0e3;
+  border-radius: 6px;
+  width:360px;
+  padding: 16px 0px 6px 0px;
+  position: absolute;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+}
+.income__list
+{
+  top: 74px;
+  left: 0px;
+  display: none;
+  width:100%;
+  &.active
+  {
+    display: block;
+    .vector-2
+    {
+      transform: rotate(180deg);
+    }
+  }
+}
+.income__rotate
+{
+  transform:rotate(180deg);
+  transition:.4s;
+}
+.income__list :last-child
+{
+  border-bottom: none;
+  color: black
+}
+.incom__first-item-1
+{
+  border-top: 1px solid grey;
+}
+.income__list-item
+{
+  border-bottom: 1px solid grey;
+  padding-left: 24px;
+}
+.income__list-item:hover
+{
+  background-color:#c3c3c3;
+}
+.income__list-item  span
+{
+  width: 73px;
+  height: 57px;
+  font-family: Aeroport;
+  font-size: 35px;
+  letter-spacing: normal;
+  color: #131313;
+}
+.income__list-item .income__calc-middle
+{
+    width: 190px;
+    height: 14px;
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #808080;
+    vertical-align: super;
+}
+
+
+.income__midle-lvl .income__calc-middle
+{
+  width: 190px;
+  height: 14px;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #808080;
+  vertical-align: super;
+}
+.income__midle-lvl
+{
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #808080;
+  float: left;
+  margin-right: 27px;
+  padding-left: 22px;
+}
+.income__midle-lvl span
+{
+  font-family: Aeroport;
+  font-size: 35px;
+  letter-spacing: normal;
+  color: #131313;
+  display: inline-block;
+}
+.income__midle-lvl .income__calc-middletest
+{
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #808080;
+  vertical-align: super;
+  display: inline-block;
+}
+.income__bot-border
+{
+  border: 1px solid #d8d8d8;
+  margin-top: 140px;
+  width: 362px;
+}
+.vector-2
+{
+	height: 50px;
+  display: inline-block;
+}
+.income__inver-year
+{
+  font-family: 'Lato-Regular';
+  font-size: 21px;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #131313;
+  text-align: center;
+  margin-top: 47px;
+  margin-bottom: 35px;
+}
+.income__table
+{
+}
+.income__table-row
+{
+  display: flex;
+  justify-content: center;
+  font-family: 'Aeroport';
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #131313;
+  text-align: right;
+}
+.income__table-coll
+{
+  width:172px;
+}
+.income__table-row-two .income__only-second
+{
+  padding-top: 0;
+}
+.income__table-row-two .income__only-second-2
+{
+  padding-top: 12px;
+}
+#all25
+{
+  padding-top: 13px;
+  padding-bottom: 12px;
+}
+#all5
+{
+  padding-top: 11px;
+}
+.income__table-row-two .income__only-second-3
+{
+  padding-top: 10px;
+}
+.income__table-row .income__only-third
+{
+  padding-top: 22px;
+}
+.income__table-row .income__only-third-2
+{
+  padding-top: 19px;
+}
+.income__first
+{
+  padding-bottom:5px;
+  padding-right: 37px;
+  padding-top: 1px;
+}
+.income__second
+{
+  padding-bottom:10px;
+  padding-top:13px;
+  padding-right: 38px;
+}
+.income__first-coll
+{
+  padding-right: 39px;
+  padding-bottom: 15px;
+  padding-top: 8px;
+}
+.income__second-coll
+{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 39px;
+  width: 157px;
+}
+.income__table-coll
+{
+  border-right:1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+.income__table-row-two
+{
+  display: flex;
+}
+.income__table-coll_mod
+{
+  border-bottom:none;
+}
+.income__third-coll
+{
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #131313;
+  max-width: 478px;
+  width:100%;
+  padding-bottom: 19px;
+  padding-top: 10px;
+  border-right:none;
+  padding-left: 51px;
+  text-align: left;
+}
+.income__table-coll span
+{
+  color:#b2b2b2;
+  font-size:12px;
+  font-family:'Lato-Regular';
+}
+.income__table-coll-text
+{
+  border-right:1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  padding-right: 35px;
+  padding-left:50px;
+  width: 475px;
+}
+.income__table-coll-text_mod
+{
+  border-bottom:none;
+}
+.income__dop-table
+{
+  background-color: #fffce3;
+  border-top:3px solid #ece9cc;
+  border-bottom:1px solid #d8d8d8;
+}
+.income__dop-table-row
+{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  text-align:right;
+}
+.income__dop-table-coll
+{
+  width:172px;
+  font-family: 'Aeroport';
+  font-size: 30px;
+  color: #131313;
+}
+.dop-first
+{
+  padding-right: 39px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.dop-second
+{
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 39px;
+  width: 157px;
+}
+.income__dop-table-row span
+{
+  color:#b2b2b2;
+  font-size:12px;
+  font-family:'Lato-Regular';
+}
+.income__dop-table-coll-text
+{
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #131313;
+  padding-bottom: 19px;
+  padding-top: 25px;
+  padding-left: 51px;
+  max-width:478px;
+  width:100%;
+  text-align:left;
+}
+.income__dop-table-row-text
+{
+  padding-bottom: 21px;
+  padding-right: 35px;
+  padding-left: 50px;
+  padding-top: 26px;
+}
+.income__strategy
+{
+  padding-top: 54px;
+}
+.income__strategy-portfplio
+{
+	display: flex;
+	border-bottom:1px solid #e5e5e5;
+}
+.income__strategy-percent
+{
+	border-left: 5px solid red;
+  height: 70px;
+  padding-left: 42px;
+}
+.income__strategy-percent-rub
+{
+	width: 82px;
+  height: 14px;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b2b2b2;
+}
+.income__strategy-percent-numeral
+{
+	width: 100px;
+  height: 51px;
+  font-family: 'Aeroport';
+  font-size: 48px;
+  line-height: 0.91;
+  letter-spacing: normal;
+  color: #131313;
+}
+.income__model-portfolio
+{
+	width:100%;
+	padding-bottom: 41px;
+  padding-left: 82px;
+}
+.income__model-portfolio-text
+{
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #808080;
+}
+.income__top-word
+{
+  line-height: normal;
+}
+.income__paragraph-block
+{
+  padding-top:11px;
+  width:422px;
+}
+.income__paragraph
+{
+  font-family: 'Lato-Regular';
+  font-size: 17px;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #292929;
+}
+
+.income__model-portfolio .first
+{
+  margin-bottom: 10px;
+  margin-top: 12px;
+}
+.income__model-portfolio .second
+{
+  color: #292929;
+  margin-top: 8px;
+  margin-left: 1px;
+  margin-bottom: 0 ;
+}
+.income__model-portfolio .third
+{
+  margin-top: 10px;
+  margin-left: 1px;
+  margin-bottom: 0;
+}
+.income__partners
+{
+	display: flex;
+	align-items:center
+}
+.income__foot-is-block
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	padding-left: 48px;
+  padding-right: 51px;
+}
+.income__button
+{
+	border-radius: 100px;
+  background-color: white;
+  width: 326px;
+  height: 42px;
+  text-align: center;
+  padding-top: 8px;
+  border: solid 2px #e05b50;
+  cursor: pointer;
+}
+.income__foot-is-block div img
+{
+	width: 22px;
+  height: 4px;
+}
+.income__foot-is-block svg
+{
+	margin-right: 15px;
+}
+@media (max-width: 1024px) {
+  .income__input
+  {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 944px)
+{
+  .income__calc
+  {
+    display: block;
+    width:470px;
+    margin:0 auto;
+  }
+  .income__calc-invest
+  {
+    border-right:none;
+    padding-right:0;
+  }
+  .income__calc-earnings
+  {
+    padding-top: 52px;
+    padding-left: 0;
+  }
+  .income__calc-invest .income__calc-title
+  {
+    margin-left: 0;
+    text-align:center;
+  }
+  .income__calc-earnings .income__calc-title
+  {
+    text-align: center;
+  }
+  .income__calc-maney
+  {
+    width:100%;
+    justify-content: center;
+    padding-left:0;
+  }
+  .income__calc-all
+  {
+    position: relative;
+    margin: 0 auto;
+  }
+  .income__bot-border
+  {
+    margin-top: 0;
+    border:none;
+  }
+  .income__third-coll
+  {
+    max-width:330px;
+    padding-bottom: 11px;
+  }
+  .income__dop-table-coll-text
+  {
+    padding-left: 51px;
+    padding-top: 7px;
+    max-width: 330px;
+    width: 100%;
+    text-align: left;
+  }
+  .income__dop-table-row
+  {
+    padding-right: 0;
+  }
+}
+@media (max-width:754px)
+{
+  .income__strategy-percent-numeral
+  {
+    font-size: 38px;
+  }
+  .strategy-name
+  {
+    font-size: 31px;
+  }
+  .income__paragraph
+  {
+    font-size: 15px;
+  }
+  .income__dop-table-row
+  {
+    padding-left: 8px;
+  }
+  .income__dop-table-coll-text
+  {
+    //width: 229px;
+    //padding-left: 17px;
+  }
+  .income__model-portfolio
+  {
+    padding-left: 68px;
+  }
+  .income__foot-is-block
+  {
+    justify-content: space-around;
+    padding-left: 48px;
+    padding-right: 0;
+  }
+  .income__dop-table-row
+  {
+    padding-right: 0;
+  }
+  .strategy__block-span
+  {
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .income__paragraph-block
+  {
+    width:350px;
+    padding-right: 16px;
+  }
+}
+@media (max-width: 530px)
+{
+  .income__midle-lvl
+  {
+    margin-right: 5px;
+  }
+  .income
+  {
+    padding-top: 32px;
+  }
+  .income__calc
+  {
+    width:100%;
+  }
+  .income__calc-title
+  {
+    font-size: 16px;
+    text-align: center;
+  }
+  .income__calc-maney
+  {
+    padding: 0px;
+    width:100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .income__calc-month
+  {
+    padding-right:7px;
+    padding: 12px 0px 12px 0px;
+  }
+  .income__calc-year
+  {
+    padding-right:7px;
+    padding: 12px 0px 12px 0px;
+  }
+  .income__input
+  {
+    padding-right: 10px;
+  }
+  .income__calc-invest .income__calc-title
+  {
+    text-align: center;
+    margin-left: 0;
+  }
+  .income__calc-test :nth-child(3)
+  {
+    width:199px;
+  }
+  .income__calc-earnings
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .income__calc-all
+  {
+    width:100%;
+    padding-right: 0;
+  }
+  .income__table-row
+  {
+    flex-direction:column;
+  }
+  .income__table-coll
+  {
+    border-bottom: none;
+    font-size: 24px;
+  }
+  .income__second-coll
+  {
+    border-right:none;
+    padding-right: 57px;
+  }
+  .income__third-coll
+  {
+    padding-left: 0;
+    text-align: center;
+    max-width:100%;
+    font-size: 12px;
+  }
+  .income__dop-table
+  {
+    justify-content: center;
+  }
+  .income__dop-table-row
+  {
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+    width:100%;
+    text-align: end;
+  }
+  .income__dop-table-coll-text
+  {
+    padding-left: 0;
+    text-align: center;
+    max-width:100%;
+    padding-top: 0;
+    font-size: 12px;
+  }
+  .income__strategy-portfplio
+  {
+    display: block;
+  }
+  .income__model-portfolio
+  {
+    padding-left: 14px;
+    padding-top: 24px;
+  }
+  .income__foot-is-block
+  {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  .income__partners
+  {
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .income__button
+  {
+    margin: 0 auto;
+  }
+  .income__table-row-two
+  {
+    justify-content: center;
+  }
+  .dop-first
+  {
+    padding-bottom: 18px;
+    padding-top: 13px;
+    padding-right: 46px;
+  }
+  .dop-second
+  {
+    padding-top: 13px;
+  }
+  .income__inver-year
+  {
+    font-size: 16px;
+  }
+  .income__dop-table-coll
+  {
+    font-size: 24px;
+  }
+  .income__strategy
+  {
+    padding-top: 25px;
+  }
+  .income__strategy-percent-rub
+  {
+    display: block;
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: $iphone)
+{
+  .income__midle-lvl
+  {
+    margin-right: 5px;
+  }
+  .income
+  {
+    padding-top: 32px;
+  }
+  .income__calc
+  {
+    width:100%;
+  }
+  .income__calc-title
+  {
+    font-size: 16px;
+    text-align: center;
+  }
+  .income__calc-maney
+  {
+    padding: 0px;
+    width:100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .income__calc-month
+  {
+    padding-right:7px;
+    padding: 12px 0px 12px 0px;
+  }
+  .income__calc-year
+  {
+    padding-right:7px;
+    padding: 12px 0px 12px 0px;
+  }
+  .income__input
+  {
+    padding-right: 10px;
+  }
+  .income__calc-invest .income__calc-title
+  {
+    text-align: center;
+    margin-left: 0;
+  }
+  .income__calc-test :nth-child(3)
+  {
+    width:199px;
+  }
+  .income__calc-earnings
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .income__calc-all
+  {
+    width:100%;
+    padding-right: 0;
+  }
+  .income__table-row
+  {
+    flex-direction:column;
+  }
+  .income__table-coll
+  {
+    border-bottom: none;
+    font-size: 24px;
+  }
+  .income__second-coll
+  {
+    border-right:none;
+    padding-right: 57px;
+  }
+  .income__third-coll
+  {
+    padding-left: 0;
+    text-align: center;
+    max-width:100%;
+    font-size: 12px;
+  }
+  .income__dop-table
+  {
+    justify-content: center;
+  }
+  .income__dop-table-row
+  {
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+    width:100%;
+    text-align: end;
+  }
+  .income__dop-table-coll-text
+  {
+    padding-left: 0;
+    text-align: center;
+    max-width:100%;
+    padding-top: 0;
+    font-size: 12px;
+  }
+  .income__strategy-portfplio
+  {
+    display: block;
+  }
+  .income__model-portfolio
+  {
+    padding-left: 14px;
+    padding-top: 24px;
+  }
+  .income__foot-is-block
+  {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .income__partners
+  {
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .income__button
+  {
+    margin: 0 auto;
+  }
+  .income__table-row-two
+  {
+    justify-content: center;
+  }
+  .dop-first
+  {
+    padding-bottom: 18px;
+    padding-top: 13px;
+    padding-right: 46px;
+  }
+  .dop-second
+  {
+    padding-top: 13px;
+  }
+  .income__inver-year
+  {
+    font-size: 16px;
+  }
+  .income__dop-table-coll
+  {
+    font-size: 24px;
+  }
+  .income__strategy
+  {
+    padding-top: 25px;
+  }
+}
+#income__slider
+{
+  left: 47px;
+  width: 369px;
+  height: 4px;
+  border-radius:0;
+  border:none;
+  background-color:#dbf4ff;
+  top: 35px;
+  @media(max-width:768px) {
+    left: 0;
+    margin: 0 auto;
+  }
+  @media (max-width:500px) and (min-width:322px) {
+    width:345px;
+  }
+  @media(max-width:$iphone) {
+    width:345px;
+  }
+}
+.noUi-horizontal .noUi-handle
+{
+  background-image: url('../img/vector-3-1@2x.png');
+  top: -14px;
+  background-position: center;
+  background-size: cover;
+  background-position-y: -4px;
+  border: none;
+  border-radius: none;
+  box-shadow: none;
+  background-color: inherit;
+}
+.noUi-handle:before, .noUi-handle:after
+{
+  display: none;
+}
+.shadow
+{
+  display: none;
+}
+.income__strategy-foot .strategy__all-strategys-top,
+.income__strategy-foot .strategy__all-strategys,
+{
+  margin-top: 0;
+  padding-top: 0;
+}
+.noUi-connect
+{
+  background: #a8d0e3;
+}

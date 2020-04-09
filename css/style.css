@@ -1,0 +1,4061 @@
+@charset "UTF-8";
+
+/* ********************** */
+
+.bristol-myers-squibb-logo {
+  width: 35px;
+  height: 30px;
+}
+
+.dididentnaya-luk {
+  width: 35px;
+  height: 34px;
+}
+
+.dividentnaya-alrosa {
+  width: 47px;
+  height: 26px;
+}
+
+.document-percent {
+  width: 48px;
+  height: 55px;
+}
+
+.group-20 {
+  width: 60px;
+  height: 60px;
+}
+
+.group-21 {
+  width: 60px;
+  height: 60px;
+}
+
+.group-3 {
+  width: 61px;
+  height: 61px;
+}
+
+.group {
+  width: 36px;
+  height: 36px;
+}
+
+.invalid-name {
+  width: 22px;
+  height: 4px;
+}
+
+.logo-dow {
+  width: 80px;
+  height: 27px;
+}
+
+.logo-microsoft {
+  width: 35px;
+  height: 35px;
+}
+
+.logo-tatneft {
+  width: 21px;
+  height: 41px;
+}
+
+.logo-uralkaliy {
+  width: 61px;
+  height: 40px;
+}
+
+.logo-yandex {
+  width: 17px;
+  height: 35px;
+}
+
+.micron-small-logo {
+  width: 38px;
+  height: 30px;
+}
+
+.mp-icon {
+  width: 100px;
+  height: 66px;
+}
+
+.netflix-logo {
+  width: 18px;
+  height: 33px;
+}
+
+.novatek {
+  width: 41px;
+  height: 43px;
+}
+
+.obligacionnaya-web-bank {
+  width: 80px;
+  height: 24px;
+}
+
+.opif-tgf-rf {
+  width: 35px;
+  height: 35px;
+}
+
+.phone {
+  width: 35px;
+  height: 35px;
+}
+
+.portfolio {
+  width: 86px;
+  height: 77px;
+}
+
+.rosneft-sign {
+  width: 27px;
+  height: 35px;
+}
+
+.s-1-okay {
+  width: 71px;
+  height: 20px;
+}
+
+.sberbank-logo {
+  width: 35px;
+  height: 34px;
+}
+
+.square-percent {
+  width: 48px;
+  height: 48px;
+}
+
+.surgut {
+  width: 58px;
+  height: 32px;
+}
+
+.vector-2 {
+  width: 19px;
+  height: 11px;
+}
+
+.vector {
+  width: 12px;
+  height: 16px;
+}
+
+.visa-inc-logo {
+  width: 61px;
+  height: 20px;
+}
+
+/* vendors */
+
+/*! nouislider - 14.1.1 - 12/15/2019 */
+
+/* Functional styling;
+ * These styles are required for noUiSlider to function.
+ * You don't need to change these rules to apply your design.
+ */
+
+.noUi-target,
+.noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.noUi-target {
+  position: relative;
+}
+
+.noUi-base,
+.noUi-connects {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* Wrapper for all connect elements.
+ */
+
+.noUi-connects {
+  overflow: hidden;
+  z-index: 0;
+}
+
+.noUi-connect,
+.noUi-origin {
+  will-change: transform;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  -ms-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  -webkit-transform-style: preserve-3d;
+  transform-origin: 0 0;
+  -webkit-transform-style: flat;
+  transform-style: flat;
+}
+
+.noUi-connect {
+  height: 100%;
+  width: 100%;
+}
+
+.noUi-origin {
+  height: 10%;
+  width: 10%;
+}
+
+/* Offset direction
+ */
+
+.noUi-txt-dir-rtl.noUi-horizontal .noUi-origin {
+  left: 0;
+  right: auto;
+}
+
+/* Give origins 0 height/width so they don't interfere with clicking the
+ * connect elements.
+ */
+
+.noUi-vertical .noUi-origin {
+  width: 0;
+}
+
+.noUi-horizontal .noUi-origin {
+  height: 0;
+}
+
+.noUi-handle {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.noUi-touch-area {
+  height: 100%;
+  width: 100%;
+}
+
+.noUi-state-tap .noUi-connect,
+.noUi-state-tap .noUi-origin {
+  -webkit-transition: transform 0.3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  -o-transition: transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.noUi-state-drag * {
+  cursor: inherit !important;
+}
+
+/* Slider size and handle placement;
+ */
+
+.noUi-horizontal {
+  height: 18px;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 34px;
+  height: 28px;
+  right: -17px;
+  top: -6px;
+}
+
+.noUi-vertical {
+  width: 18px;
+}
+
+.noUi-vertical .noUi-handle {
+  width: 28px;
+  height: 34px;
+  right: -6px;
+  top: -17px;
+}
+
+.noUi-txt-dir-rtl.noUi-horizontal .noUi-handle {
+  left: -17px;
+  right: auto;
+}
+
+/* Styling;
+ * Giving the connect element a border radius causes issues with using transform: scale
+ */
+
+.noUi-target {
+  background: #FAFAFA;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #D3D3D3;
+  -webkit-box-shadow: inset 0 1px 1px #F0F0F0, 0 3px 6px -5px #BBB;
+  box-shadow: inset 0 1px 1px #F0F0F0, 0 3px 6px -5px #BBB;
+}
+
+.noUi-connects {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.noUi-connect {
+  background: #3FB8AF;
+}
+
+/* Handles and cursors;
+ */
+
+.noUi-draggable {
+  cursor: ew-resize;
+}
+
+.noUi-vertical .noUi-draggable {
+  cursor: ns-resize;
+}
+
+.noUi-handle {
+  border: 1px solid #D9D9D9;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #FFF;
+  cursor: default;
+  -webkit-box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+  box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+}
+
+.noUi-active {
+  -webkit-box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #DDD, 0 3px 6px -3px #BBB;
+  box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #DDD, 0 3px 6px -3px #BBB;
+}
+
+/* Handle stripes;
+ */
+
+.noUi-handle:before,
+.noUi-handle:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 14px;
+  width: 1px;
+  background: #E8E7E6;
+  left: 14px;
+  top: 6px;
+}
+
+.noUi-handle:after {
+  left: 17px;
+}
+
+.noUi-vertical .noUi-handle:before,
+.noUi-vertical .noUi-handle:after {
+  width: 14px;
+  height: 1px;
+  left: 6px;
+  top: 14px;
+}
+
+.noUi-vertical .noUi-handle:after {
+  top: 17px;
+}
+
+/* Disabled state;
+ */
+
+[disabled] .noUi-connect {
+  background: #B8B8B8;
+}
+
+[disabled].noUi-target,
+[disabled].noUi-handle,
+[disabled] .noUi-handle {
+  cursor: not-allowed;
+}
+
+/* Base;
+ *
+ */
+
+.noUi-pips,
+.noUi-pips * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.noUi-pips {
+  position: absolute;
+  color: #999;
+}
+
+/* Values;
+ *
+ */
+
+.noUi-value {
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.noUi-value-sub {
+  color: #ccc;
+  font-size: 10px;
+}
+
+/* Markings;
+ *
+ */
+
+.noUi-marker {
+  position: absolute;
+  background: #CCC;
+}
+
+.noUi-marker-sub {
+  background: #AAA;
+}
+
+.noUi-marker-large {
+  background: #AAA;
+}
+
+/* Horizontal layout;
+ *
+ */
+
+.noUi-pips-horizontal {
+  padding: 10px 0;
+  height: 80px;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+.noUi-value-horizontal {
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+
+.noUi-rtl .noUi-value-horizontal {
+  -webkit-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+}
+
+.noUi-marker-horizontal.noUi-marker {
+  margin-left: -1px;
+  width: 2px;
+  height: 5px;
+}
+
+.noUi-marker-horizontal.noUi-marker-sub {
+  height: 10px;
+}
+
+.noUi-marker-horizontal.noUi-marker-large {
+  height: 15px;
+}
+
+/* Vertical layout;
+ *
+ */
+
+.noUi-pips-vertical {
+  padding: 0 10px;
+  height: 100%;
+  top: 0;
+  left: 100%;
+}
+
+.noUi-value-vertical {
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding-left: 25px;
+}
+
+.noUi-rtl .noUi-value-vertical {
+  -webkit-transform: translate(0, 50%);
+  -ms-transform: translate(0, 50%);
+  transform: translate(0, 50%);
+}
+
+.noUi-marker-vertical.noUi-marker {
+  width: 5px;
+  height: 2px;
+  margin-top: -1px;
+}
+
+.noUi-marker-vertical.noUi-marker-sub {
+  width: 10px;
+}
+
+.noUi-marker-vertical.noUi-marker-large {
+  width: 15px;
+}
+
+.noUi-tooltip {
+  display: block;
+  position: absolute;
+  border: 1px solid #D9D9D9;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+  color: #000;
+  padding: 5px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.noUi-horizontal .noUi-tooltip {
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  left: 50%;
+  bottom: 120%;
+}
+
+.noUi-vertical .noUi-tooltip {
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  top: 50%;
+  right: 120%;
+}
+
+/* base */
+
+/*  Переменные со шрифтами  */
+
+/*  Переменные с гарнитурами шрифтов  */
+
+/*  Основные цвета  */
+
+/* Разрешения */
+
+@font-face {
+  font-family: 'a_lcdnovaregular';
+  src: url("../fonts/a_lcdnova-webfont.eot");
+  src: url("../fonts/a_lcdnova-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/a_lcdnova-webfont.woff2") format("woff2"), url("../fonts/a_lcdnova-webfont.woff") format("woff"), url("../fonts/a_lcdnova-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeroport-Bold';
+  src: url("../fonts/Aeroport-Bold.eot");
+  src: local("../fonts/Aeroport Bold"), local("Aeroport-Bold"), url("../fonts/Aeroport-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Aeroport-Bold.woff2") format("woff2"), url("../fonts/Aeroport-Bold.woff") format("woff"), url("../fonts/Aeroport-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aeroport';
+  src: url("../fonts/Aeroport.eot");
+  src: local("../fonts/Aeroport"), url("../fonts/Aeroport.eot?#iefix") format("embedded-opentype"), url("../fonts/Aeroport.woff2") format("woff2"), url("../fonts/Aeroport.woff") format("woff"), url("../fonts/Aeroport.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aeroport-Medium';
+  src: url("../fonts/Aeroport-Medium.eot");
+  src: local("../fonts/Aeroport Medium"), local("Aeroport-Medium"), url("../fonts/Aeroport-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Aeroport-Medium.woff2") format("woff2"), url("../fonts/Aeroport-Medium.woff") format("woff"), url("../fonts/Aeroport-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-BlackItalic.eot");
+  src: url("../fonts/Lato-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-BlackItalic.woff2") format("woff2"), url("../fonts/Lato-BlackItalic.woff") format("woff"), url("../fonts/Lato-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Heavy.eot");
+  src: url("../fonts/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Heavy.woff2") format("woff2"), url("../fonts/Lato-Heavy.woff") format("woff"), url("../fonts/Lato-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Light.eot");
+  src: url("../fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Light.woff2") format("woff2"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato Hairline';
+  src: url("../fonts/Lato-Hairline.eot");
+  src: url("../fonts/Lato-Hairline.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Hairline.woff2") format("woff2"), url("../fonts/Lato-Hairline.woff") format("woff"), url("L../fonts/ato-Hairline.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-ThinItalic.eot");
+  src: url("../fonts/Lato-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-ThinItalic.woff2") format("woff2"), url("../fonts/Lato-ThinItalic.woff") format("woff"), url("../fonts/Lato-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Black.eot");
+  src: url("../fonts/Lato-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff"), url("../fonts/Lato-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Thin.eot");
+  src: url("../fonts/Lato-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Thin.woff2") format("woff2"), url("../fonts/Lato-Thin.woff") format("woff"), url("../fonts/Lato-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url("../fonts/Lato-Regular.eot");
+  src: url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-MediumItalic.eot");
+  src: url("../fonts/Lato-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-MediumItalic.woff2") format("woff2"), url("../fonts/Lato-MediumItalic.woff") format("woff"), url("../fonts/Lato-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato Hairline';
+  src: url("../fonts/Lato-HairlineItalic.eot");
+  src: url("../fonts/Lato-HairlineItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-HairlineItalic.woff2") format("woff2"), url("../fonts/Lato-HairlineItalic.woff") format("woff"), url("../fonts/Lato-HairlineItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Bold.eot");
+  src: url("../fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Semibold.eot");
+  src: url("../fonts/Lato-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Semibold.woff2") format("woff2"), url("../fonts/Lato-Semibold.woff") format("woff"), url("../fonts/Lato-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Medium.eot");
+  src: url("../fonts/Lato-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff"), url("../fonts/Lato-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-LightItalic.eot");
+  src: url("../fonts/Lato-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-LightItalic.woff2") format("woff2"), url("../fonts/Lato-LightItalic.woff") format("woff"), url("../fonts/Lato-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-HeavyItalic.eot");
+  src: url("../fonts/Lato-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-HeavyItalic.woff2") format("woff2"), url("../fonts/Lato-HeavyItalic.woff") format("woff"), url("../fonts/Lato-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Italic.eot");
+  src: url("../fonts/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Italic.woff2") format("woff2"), url("../fonts/Lato-Italic.woff") format("woff"), url("../fonts/Lato-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-SemiboldItalic.eot");
+  src: url("../fonts/Lato-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-SemiboldItalic.woff2") format("woff2"), url("../fonts/Lato-SemiboldItalic.woff") format("woff"), url("../fonts/Lato-SemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-BoldItalic.eot");
+  src: url("../fonts/Lato-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-BoldItalic.woff2") format("woff2"), url("../fonts/Lato-BoldItalic.woff") format("woff"), url("../fonts/Lato-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*  сбрасывает браузерное отображение элементов т.к. разные браузеры по разному отображают одно и тоже  */
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+  background-color: transparent;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  padding: 0;
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/*  Общая типографика для всех страниц. здесь описываются общие свойства для текстовых блоков  */
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 15px;
+  letter-spacing: 2.4px;
+  line-height: 24px;
+  margin: 0px 0 8px 0;
+}
+
+p {
+  margin-top: 10px;
+  color: #6a7678;
+}
+
+b {
+  font-weight: 700;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+
+.h1-style {
+  font-size: 32px;
+  line-height: 32px;
+  margin: 0;
+  letter-spacing: 0.9px;
+}
+
+.h2-style {
+  font-size: 30px;
+  font-family: "PT Sans", sans-serif;
+  color: #232323;
+}
+
+.h3-style {
+  font-size: 20px;
+  color: #f4b600;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin: 0;
+}
+
+.title {
+  font-family: 'Aeroport';
+  font-size: 35px;
+  letter-spacing: normal;
+  color: #131313;
+}
+
+.strategy-name {
+  font-family: 'Aeroport';
+  font-size: 35px;
+  letter-spacing: normal;
+  color: #131313;
+}
+
+/* layouts */
+
+/* blocks */
+
+.header {
+  background-image: url("../img/group-19-1@2x.png");
+  padding-bottom: 194px;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 34px;
+  padding-left: 24px;
+  padding-right: 19px;
+  line-height: 1px;
+}
+
+.header__top-image img {
+  width: 196px;
+  height: 47px;
+}
+
+.header__top-numb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header__top-numb-phone-img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 9.5px;
+}
+
+.header__top-numb a {
+  width: 201px;
+  height: 31px;
+  font-family: 'Lato-Regular';
+  font-size: 21px;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #292929;
+}
+
+.header__main {
+  text-align: -webkit-center;
+  margin-top: 57.5px;
+}
+
+.header__title {
+  font-family: 'Aeroport';
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #292929;
+  margin-bottom: 20px;
+}
+
+.header__sub-title {
+  font-family: 'Aeroport';
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #292929;
+  margin-bottom: 20px;
+}
+
+.header__sub-title_red {
+  color: #ec231a;
+  margin-bottom: 35px;
+}
+
+.header__line {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  text-align: -webkit-center;
+}
+
+.header__dop-line {
+  height: 4px;
+  margin-bottom: 5px;
+  width: 49px;
+  background-color: #a8d0e3;
+}
+
+.header__line_rotate :first-child {
+  -webkit-transform: translate(-19px, 0px) rotate(27deg);
+  -ms-transform: translate(-19px, 0px) rotate(27deg);
+  transform: translate(-19px, 0px) rotate(27deg);
+}
+
+.header__line_rotate :last-child {
+  -webkit-transform: translate(23px, -9px) rotate(153deg);
+  -ms-transform: translate(23px, -9px) rotate(153deg);
+  transform: translate(23px, -9px) rotate(153deg);
+}
+
+.header__mobile-image {
+  display: none;
+}
+
+.footer-bot {
+  background-color: gray;
+  background: #192633;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.footer-bot p {
+  color: white;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__block-logo {
+  -webkit-flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+  position: relative;
+  background-color: #fafafa;
+  height: 100vh;
+  padding-top: 51px;
+  padding-right: 52px;
+}
+
+.footer__block-logo:before {
+  content: '';
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fafafa;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.footer__block-logo .logo {
+  width: 100%;
+  height: 100%;
+}
+
+.footer__block-text {
+  padding-top: 29px;
+  padding-left: 29px;
+}
+
+.footer__text {
+  width: 570px;
+}
+
+.footer__text p {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.footer__block-cont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.income {
+  -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+  padding-top: 53px;
+  padding-bottom: 20px;
+  margin-top: -163px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.income__proc {
+  text-align: -webkit-center;
+  line-height: 0;
+  margin-bottom: 11px;
+}
+
+.income__title {
+  text-align: center;
+  margin-bottom: 26px;
+  line-height: 1.76;
+}
+
+.income__calc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.income__calc-invest {
+  border-right: 1px solid #d8d8d8;
+  padding-right: 45px;
+}
+
+.income__calc-maney {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 412px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+
+.income__calc-or {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.income__calc-month {
+  border: solid 2px #a8d0e3;
+  text-align: end;
+  padding: 12px 0px 12px 24px;
+}
+
+.income__input {
+  width: 134.6px;
+  height: auto;
+  font-family: 'Aeroport';
+  font-size: 30px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: #131313;
+  font-size: 30px;
+  text-align: end;
+  border: none;
+  padding-right: 15px;
+}
+
+.income__r-is-month {
+  width: auto;
+  height: auto;
+  font-family: 'Lato-Regular';
+  font-size: 12px;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #808080;
+  margin-right: 15px;
+}
+
+.income__calc-year {
+  border: solid 2px #a8d0e3;
+  text-align: end;
+  padding: 12px 0px 12px 24px;
+}
+
+.income__r-is-year {
+  width: auto;
+  height: auto;
+  font-family: 'Lato-Regular';
+  font-size: 12px;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #808080;
+  margin-right: 12px;
+}
+
+.income__calc-tests-image {
+  height: 40px;
+}
+
+.income__calc-earnings {
+  padding-left: 41px;
+  position: relative;
+}
+
+.income__calc-title {
+  font-family: 'Lato-Regular';
+  font-size: 18px;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #131313;
+  margin-bottom: 20px;
+}
+
+.income__calc-invest .income__calc-title {
+  margin-left: 46px;
+  margin-bottom: 20px;
+}
+
+.income__calc-all {
+  display: block;
+  border: solid 2px #a8d0e3;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  width: 360px;
+  padding: 16px 0px 6px 0px;
+  position: absolute;
+  height: auto;
+  background-color: white;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.income__list {
+  top: 74px;
+  left: 0px;
+  display: none;
+  width: 100%;
+}
+
+.income__list.active {
+  display: block;
+}
+
+.income__list.active .vector-2 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.income__rotate {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
+.income__list :last-child {
+  border-bottom: none;
+  color: black;
+}
+
+.incom__first-item-1 {
+  border-top: 1px solid grey;
+}
+
+.income__list-item {
+  border-bottom: 1px solid grey;
+  padding-left: 24px;
+}
+
+.income__list-item:hover {
+  background-color: #c3c3c3;
+}
+
+.income__list-item span {
+  width: 73px;
+  height: 57px;
+  font-family: Aeroport;
+  font-size: 35px;
+  letter-spacing: normal;
+  color: #131313;
+}
+
+.income__list-item .income__calc-middle {
+  width: 190px;
+  height: 14px;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #808080;
+  vertical-align: super;
+}
+
+.income__midle-lvl .income__calc-middle {
+  width: 190px;
+  height: 14px;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #808080;
+  vertical-align: super;
+}
+
+.income__midle-lvl {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #808080;
+  float: left;
+  margin-right: 27px;
+  padding-left: 22px;
+}
+
+.income__midle-lvl span {
+  font-family: Aeroport;
+  font-size: 35px;
+  letter-spacing: normal;
+  color: #131313;
+  display: inline-block;
+}
+
+.income__midle-lvl .income__calc-middletest {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #808080;
+  vertical-align: super;
+  display: inline-block;
+}
+
+.income__bot-border {
+  border: 1px solid #d8d8d8;
+  margin-top: 140px;
+  width: 362px;
+}
+
+.vector-2 {
+  height: 50px;
+  display: inline-block;
+}
+
+.income__inver-year {
+  font-family: 'Lato-Regular';
+  font-size: 21px;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #131313;
+  text-align: center;
+  margin-top: 47px;
+  margin-bottom: 35px;
+}
+
+.income__table-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: 'Aeroport';
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #131313;
+  text-align: right;
+}
+
+.income__table-coll {
+  width: 172px;
+}
+
+.income__table-row-two .income__only-second {
+  padding-top: 0;
+}
+
+.income__table-row-two .income__only-second-2 {
+  padding-top: 12px;
+}
+
+#all25 {
+  padding-top: 13px;
+  padding-bottom: 12px;
+}
+
+#all5 {
+  padding-top: 11px;
+}
+
+.income__table-row-two .income__only-second-3 {
+  padding-top: 10px;
+}
+
+.income__table-row .income__only-third {
+  padding-top: 22px;
+}
+
+.income__table-row .income__only-third-2 {
+  padding-top: 19px;
+}
+
+.income__first {
+  padding-bottom: 5px;
+  padding-right: 37px;
+  padding-top: 1px;
+}
+
+.income__second {
+  padding-bottom: 10px;
+  padding-top: 13px;
+  padding-right: 38px;
+}
+
+.income__first-coll {
+  padding-right: 39px;
+  padding-bottom: 15px;
+  padding-top: 8px;
+}
+
+.income__second-coll {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 39px;
+  width: 157px;
+}
+
+.income__table-coll {
+  border-right: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.income__table-row-two {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.income__table-coll_mod {
+  border-bottom: none;
+}
+
+.income__third-coll {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #131313;
+  max-width: 478px;
+  width: 100%;
+  padding-bottom: 19px;
+  padding-top: 10px;
+  border-right: none;
+  padding-left: 51px;
+  text-align: left;
+}
+
+.income__table-coll span {
+  color: #b2b2b2;
+  font-size: 12px;
+  font-family: 'Lato-Regular';
+}
+
+.income__table-coll-text {
+  border-right: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  padding-right: 35px;
+  padding-left: 50px;
+  width: 475px;
+}
+
+.income__table-coll-text_mod {
+  border-bottom: none;
+}
+
+.income__dop-table {
+  background-color: #fffce3;
+  border-top: 3px solid #ece9cc;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.income__dop-table-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  text-align: right;
+}
+
+.income__dop-table-coll {
+  width: 172px;
+  font-family: 'Aeroport';
+  font-size: 30px;
+  color: #131313;
+}
+
+.dop-first {
+  padding-right: 39px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.dop-second {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 39px;
+  width: 157px;
+}
+
+.income__dop-table-row span {
+  color: #b2b2b2;
+  font-size: 12px;
+  font-family: 'Lato-Regular';
+}
+
+.income__dop-table-coll-text {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #131313;
+  padding-bottom: 19px;
+  padding-top: 25px;
+  padding-left: 51px;
+  max-width: 478px;
+  width: 100%;
+  text-align: left;
+}
+
+.income__dop-table-row-text {
+  padding-bottom: 21px;
+  padding-right: 35px;
+  padding-left: 50px;
+  padding-top: 26px;
+}
+
+.income__strategy {
+  padding-top: 54px;
+}
+
+.income__strategy-portfplio {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.income__strategy-percent {
+  border-left: 5px solid red;
+  height: 70px;
+  padding-left: 42px;
+}
+
+.income__strategy-percent-rub {
+  width: 82px;
+  height: 14px;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b2b2b2;
+}
+
+.income__strategy-percent-numeral {
+  width: 100px;
+  height: 51px;
+  font-family: 'Aeroport';
+  font-size: 48px;
+  line-height: 0.91;
+  letter-spacing: normal;
+  color: #131313;
+}
+
+.income__model-portfolio {
+  width: 100%;
+  padding-bottom: 41px;
+  padding-left: 82px;
+}
+
+.income__model-portfolio-text {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #808080;
+}
+
+.income__top-word {
+  line-height: normal;
+}
+
+.income__paragraph-block {
+  padding-top: 11px;
+  width: 422px;
+}
+
+.income__paragraph {
+  font-family: 'Lato-Regular';
+  font-size: 17px;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #292929;
+}
+
+.income__model-portfolio .first {
+  margin-bottom: 10px;
+  margin-top: 12px;
+}
+
+.income__model-portfolio .second {
+  color: #292929;
+  margin-top: 8px;
+  margin-left: 1px;
+  margin-bottom: 0;
+}
+
+.income__model-portfolio .third {
+  margin-top: 10px;
+  margin-left: 1px;
+  margin-bottom: 0;
+}
+
+.income__partners {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.income__foot-is-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding-left: 48px;
+  padding-right: 51px;
+}
+
+.income__button {
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  background-color: white;
+  width: 326px;
+  height: 42px;
+  text-align: center;
+  padding-top: 8px;
+  border: solid 2px #e05b50;
+  cursor: pointer;
+}
+
+.income__foot-is-block div img {
+  width: 22px;
+  height: 4px;
+}
+
+.income__foot-is-block svg {
+  margin-right: 15px;
+}
+
+#income__slider {
+  left: 47px;
+  width: 369px;
+  height: 4px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  background-color: #dbf4ff;
+  top: 35px;
+}
+
+.noUi-horizontal .noUi-handle {
+  background-image: url("../img/vector-3-1@2x.png");
+  top: -14px;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position-y: -4px;
+  border: none;
+  -webkit-border-radius: none;
+  border-radius: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: inherit;
+}
+
+.noUi-handle:before,
+.noUi-handle:after {
+  display: none;
+}
+
+.shadow {
+  display: none;
+}
+
+.income__strategy-foot .strategy__all-strategys-top,
+.income__strategy-foot .strategy__all-strategys {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.noUi-connect {
+  background: #a8d0e3;
+}
+
+.strategy {
+  background-color: #f2f2f2;
+  margin-top: -213px;
+  padding-top: 294px;
+}
+
+.strategy__logo {
+  width: 48px;
+  height: 55px;
+  margin: 0 auto;
+  margin-bottom: 33px;
+}
+
+.document-percent {
+  width: 100%;
+  height: 100%;
+  line-height: 0;
+}
+
+.strategy__other {
+  text-align: center;
+  margin: 0 auto;
+  line-height: 50px;
+}
+
+.strategy__all-strategys {
+  background-color: white;
+  padding-bottom: 26px;
+  margin-top: 35px;
+  padding-top: 44px;
+}
+
+.strategy__all-strategys-top {
+  background-color: white;
+  padding-bottom: 26px;
+  margin-top: 28px;
+  padding-top: 44px;
+}
+
+.strategy__all-strategys-portfolio {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.strategy__risk-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 26px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.strategy__all-strategys-percent {
+  padding-left: 41px;
+  border-left: 5px solid red;
+  height: 79px;
+}
+
+.strategy__all-strategys-percent-rub {
+  width: 82px;
+  height: 14px;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b2b2b2;
+}
+
+.strategy__all-strategys-percent-numeral {
+  width: 100px;
+  height: 51px;
+  font-family: 'Aeroport';
+  font-size: 48px;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #131313;
+}
+
+.strategy__model-portfolio {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-left: 83px;
+}
+
+.strategy__model-portfolio-text {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #808080;
+}
+
+.strategy__top-word {
+  line-height: normal;
+  padding-top: 6px;
+  width: 546px;
+}
+
+.strategy__top-paragraph {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #131313;
+}
+
+.strategy__model-portfolio-paragraphs .first {
+  margin-top: 22px;
+  width: 525px;
+  margin-bottom: 0;
+}
+
+.strategy__model-portfolio-paragraphs .second {
+  margin-top: 13px;
+  width: 530px;
+  margin-bottom: 0;
+}
+
+.strategy__model-portfolio-paragraphs .third {
+  margin-top: 15px;
+  width: 468px;
+  margin-bottom: 0;
+}
+
+.strategy__partners {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.strategy__foot-is-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.strategy__button {
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  width: 326px;
+  height: 42px;
+  text-align: center;
+  padding-top: 8px;
+  border: solid 2px #e05b50;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.strategy__button-link {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: black;
+}
+
+.strategy__button-link:hover {
+  color: white;
+}
+
+.strategy__button:hover {
+  background-color: #e05b50;
+}
+
+.strategy__foot-is-block div img {
+  width: 22px;
+  height: 4px;
+}
+
+.strategy__foot-is-block svg {
+  margin-right: 15px;
+}
+
+.surgut {
+  widows: 58px;
+  height: 32px;
+}
+
+.strategy__but-and-logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.strategy__block-span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.strategy__but-and-logo span {
+  width: 65px;
+  height: 29px;
+  font-family: 'Lato-Regular';
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #767676;
+}
+
+.strategy__but-and-logo .strategy__svg-image {
+  line-height: 0;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.strategy__svg-image .group {
+  width: 100%;
+  height: 100%;
+}
+
+.strategy__but-text {
+  margin-right: 19px;
+}
+
+.null0 {
+  display: none;
+}
+
+.strategy__strategy-portfolio:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
+.more-det {
+  background-color: #f2f2f2;
+  padding-top: 78px;
+}
+
+.more-det__logo-image {
+  text-align: center;
+  width: 100px;
+  height: 64.6px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+
+.mp-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.more-det__top-word {
+  text-align: center;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+
+.more-det__bcg-white {
+  margin-left: -webkit-calc((100% - 916px) / 2);
+  margin-left: calc((100% - 916px) / 2);
+  background-color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 202px;
+}
+
+.more-det__portfolio-svg {
+  padding-left: 90px;
+  padding-top: 56px;
+}
+
+.more-det__bcg-text {
+  padding-left: 95px;
+  padding-top: 39px;
+  padding-right: 66px;
+}
+
+.more-det__bcg-text p {
+  width: 630px;
+  font-family: 'Lato-Regular';
+  font-size: 17px;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.more-det__bcg-text :nth-child(4) {
+  font-family: 'Lato-Regular';
+  font-size: 17px;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.more-det__bcg-text :nth-child(5) {
+  font-family: 'Lato-Regular';
+  font-size: 17px;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #000000;
+  margin-top: 17px;
+}
+
+.more-det__bcg-text :nth-child(6) {
+  font-family: 'Lato-Regular';
+  font-size: 17px;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #000000;
+  margin-top: 19px;
+}
+
+iframe {
+  margin-left: -webkit-calc((100% - 916px) / 2);
+  margin-left: calc((100% - 916px) / 2);
+  margin-top: -140px;
+}
+
+.more-det__background {
+  background-image: url("../img/architecture-black-diamond-black-and-white-18932@3x.png");
+  height: 469px;
+  margin-top: -344px;
+  padding-bottom: 194px;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.why__head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 0;
+}
+
+.why__head-logo {
+  -webkit-flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+  position: relative;
+}
+
+.why__head-logo:before {
+  content: '';
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.why__red-logo {
+  width: 229px;
+  height: 104px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.why__head-top-word {
+  position: relative;
+  padding-top: 117px;
+  padding-left: 50px;
+  padding-bottom: 21px;
+}
+
+.why__head-top-word:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 61.9vw;
+  z-index: -1;
+  background-color: #e8e8e8;
+}
+
+.why__head-top-word .title {
+  line-height: 1.08;
+}
+
+.why__main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.why__main-null {
+  -webkit-flex-basis: 33.7%;
+  -ms-flex-preferred-size: 33.7%;
+  flex-basis: 33.7%;
+}
+
+.why__main-text {
+  position: relative;
+  width: 100%;
+  max-width: 740px;
+}
+
+.why__main-text:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 61.8vw;
+  z-index: -1;
+  background-color: #fafafa;
+}
+
+.why__reliably {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 71px;
+  padding-left: 35px;
+}
+
+.why__indicators .why__title {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: 'Aeroport';
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+  line-height: 16.4px;
+}
+
+.why__indicators {
+  font-family: 'Lato-Regular';
+}
+
+.why__indicators .why__pros {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  line-height: 1.64;
+  letter-spacing: normal;
+  color: #121212;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group-20 {
+  margin-right: 36px;
+}
+
+.why__available {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 58px;
+  padding-left: 35px;
+}
+
+.group-3 {
+  margin-right: 36px;
+}
+
+.why__conveniently {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 58px;
+  padding-left: 41px;
+}
+
+.group-21 {
+  margin-right: 32px;
+}
+
+.why__about-phone {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.why__phone {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 55px;
+  padding-top: 3px;
+}
+
+.why__phone-image {
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.why__phone-numb {
+  height: 31px;
+  border-bottom: 1px solid #dbf4ff;
+  font-family: 'Lato-Regular';
+  font-size: 21px;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #131313;
+}
+
+.why__about {
+  border-bottom: solid 1px #c4c4c4;
+  height: 24px;
+  margin-top: 8px;
+  margin-left: 24px;
+}
+
+.why__about a {
+  font-family: 'Lato-Regular';
+  font-size: 15px;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #767676;
+}
+
+.why__questions {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 62px;
+  padding-bottom: 71px;
+}
+
+.why__questions-more {
+  padding-top: 18px;
+}
+
+.why__questions-more h3 {
+  font-family: 'Aeroport';
+  font-size: 35px;
+  line-height: 1.08;
+  letter-spacing: normal;
+  color: #131313;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.why__questions-more p {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #131313;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.why__questions-buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 17px;
+}
+
+.why__asc {
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  border: solid 2px #e05b50;
+  padding: 8px 38px;
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #292929;
+  margin-right: 13px;
+  display: inline-block;
+}
+
+.why__order {
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  border: solid 2px #e05b50;
+  padding: 8px 38px;
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #292929;
+  display: inline-block;
+}
+
+.why__quest {
+  background-color: #f2f2f2;
+}
+
+.why__main-null .title {
+  display: none;
+}
+
+body {
+  min-width: 375px;
+}
+
+.dropdown-arrow path {
+  stroke: green;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+svg > use {
+  fill: none;
+}
+
+.svg-symbol {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+.container {
+  max-width: 944px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cont1 {
+  max-width: 944px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 75px;
+}
+
+@media (max-width: 1024px) {
+  .income__input {
+    padding-right: 20px;
+  }
+
+  .why__head-top-word:before {
+    width: 72.3vw;
+  }
+
+  .why__main-text:before {
+    width: 72vw;
+  }
+}
+
+@media (max-width: 945px) {
+  .strategy__top-word {
+    width: 532px;
+  }
+
+  .strategy__model-portfolio {
+    padding-left: 58px;
+  }
+
+  .more-det__bcg-text {
+    padding-right: 0;
+    padding-left: 32px;
+  }
+
+  .more-det__bcg-white {
+    display: block;
+    margin-left: -webkit-calc((100% - 766px) / 2);
+    margin-left: calc((100% - 766px) / 2);
+  }
+
+  iframe {
+    width: 769px;
+    margin-left: -webkit-calc((100% - 768px) / 2);
+    margin-left: calc((100% - 768px) / 2);
+  }
+
+  .more-det__portfolio-svg {
+    padding-left: 22px;
+  }
+
+  .calculator {
+    background-color: white;
+    -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .income {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .why__red-logo {
+    width: 175px;
+    height: 99px;
+  }
+
+  .why__head-top-word:before {
+    width: 74vw;
+  }
+
+  .why__main-null {
+    -webkit-flex-basis: 33.5%;
+    -ms-flex-preferred-size: 33.5%;
+    flex-basis: 33.5%;
+  }
+
+  .why__main-text:before {
+    width: 74vw;
+  }
+
+  .why__questions-more h3 {
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 944px) {
+  .income__calc {
+    display: block;
+    width: 470px;
+    margin: 0 auto;
+  }
+
+  .income__calc-invest {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .income__calc-earnings {
+    padding-top: 52px;
+    padding-left: 0;
+  }
+
+  .income__calc-invest .income__calc-title {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .income__calc-earnings .income__calc-title {
+    text-align: center;
+  }
+
+  .income__calc-maney {
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .income__calc-all {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .income__bot-border {
+    margin-top: 0;
+    border: none;
+  }
+
+  .income__third-coll {
+    max-width: 330px;
+    padding-bottom: 11px;
+  }
+
+  .income__dop-table-coll-text {
+    padding-left: 51px;
+    padding-top: 7px;
+    max-width: 330px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .income__dop-table-row {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__block-logo {
+    padding-right: 5px;
+  }
+
+  .footer__block-cont {
+    display: -webkit-box;
+  }
+
+  .footer__text {
+    width: 360px;
+  }
+
+  #income__slider {
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .calculator {
+    background-color: white;
+    -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .income {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .why__red-logo {
+    width: 175px;
+    height: 99px;
+  }
+
+  .why__head-top-word:before {
+    width: 74vw;
+  }
+
+  .why__main-null {
+    -webkit-flex-basis: 33.5%;
+    -ms-flex-preferred-size: 33.5%;
+    flex-basis: 33.5%;
+  }
+
+  .why__main-text:before {
+    width: 74vw;
+  }
+
+  .why__questions-more h3 {
+    font-size: 25px;
+  }
+
+  .why__asc {
+    margin-right: 10px;
+  }
+
+  .why__questions {
+    display: block;
+    text-align: center;
+  }
+
+  .why__questions-buttons {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 754px) {
+  .income__strategy-percent-numeral {
+    font-size: 38px;
+  }
+
+  .strategy-name {
+    font-size: 31px;
+  }
+
+  .income__paragraph {
+    font-size: 15px;
+  }
+
+  .income__dop-table-row {
+    padding-left: 8px;
+  }
+
+  .income__model-portfolio {
+    padding-left: 68px;
+  }
+
+  .income__foot-is-block {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-left: 48px;
+    padding-right: 0;
+  }
+
+  .income__dop-table-row {
+    padding-right: 0;
+  }
+
+  .strategy__block-span {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .income__paragraph-block {
+    width: 350px;
+    padding-right: 16px;
+  }
+
+  .strategy__model-portfolio {
+    width: 100%;
+  }
+
+  .strategy__top-word {
+    width: auto;
+  }
+
+  .strategy__model-portfolio-paragraphs .first {
+    width: auto;
+  }
+
+  .strategy__model-portfolio-paragraphs .second {
+    width: auto;
+  }
+
+  .strategy__model-portfolio-paragraphs .third {
+    width: auto;
+  }
+
+  .strategy__partners {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .strategy__foot-is-block {
+    display: block;
+  }
+
+  .strategy__but-and-logo {
+    display: block;
+    text-align: center;
+  }
+
+  .strategy__but-text {
+    margin-right: 0;
+  }
+
+  .strategy__button {
+    margin: 0 auto;
+  }
+
+  .strategy__div-and-span {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 26px;
+  }
+
+  .more-det__bcg-text {
+    padding-right: 0;
+    padding-left: 32px;
+  }
+
+  .more-det__bcg-white {
+    display: block;
+    margin-left: 0;
+  }
+
+  iframe {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .more-det__portfolio-svg {
+    padding-left: 22px;
+  }
+
+  .more-det__bcg-text p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 568px) {
+  .footer__block-cont {
+    display: block;
+  }
+
+  .footer__logo {
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  .footer__block-logo:before {
+    display: none;
+  }
+
+  .footer__block-logo {
+    height: auto;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    background-color: white;
+  }
+
+  .footer__text {
+    width: 100%;
+  }
+
+  .more-det__bcg-white {
+    margin-left: 0;
+  }
+
+  .more-det__bcg-text p {
+    width: auto;
+  }
+
+  iframe {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .why__head-logo {
+    -webkit-flex-basis: 29.8%;
+    -ms-flex-preferred-size: 29.8%;
+    flex-basis: 29.8%;
+  }
+
+  .why__head-top-word:before {
+    width: 69.3vw;
+  }
+
+  .why__main-null {
+    -webkit-flex-basis: 42.5%;
+    -ms-flex-preferred-size: 42.5%;
+    flex-basis: 42.5%;
+  }
+
+  .why__main-text:before {
+    width: 69vw;
+  }
+
+  .why__questions {
+    display: block;
+    text-align: center;
+  }
+
+  .why__questions-more h3 {
+    font-size: 29px;
+  }
+
+  .why__questions-buttons {
+    display: block;
+  }
+
+  .why__asc {
+    margin-bottom: 38px;
+    margin-top: 24px;
+    margin-right: 0;
+  }
+
+  .why__about-phone {
+    display: block;
+  }
+
+  .why__phone {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .why__about {
+    margin-left: 50%;
+    -webkit-transform: translate(-50%, 10px);
+    -ms-transform: translate(-50%, 10px);
+    transform: translate(-50%, 10px);
+    display: inline-block;
+  }
+}
+
+@media (max-width: 530px) {
+  .income__midle-lvl {
+    margin-right: 5px;
+  }
+
+  .income {
+    padding-top: 32px;
+  }
+
+  .income__calc {
+    width: 100%;
+  }
+
+  .income__calc-title {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .income__calc-maney {
+    padding: 0px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .income__calc-month {
+    padding-right: 7px;
+    padding: 12px 0px 12px 0px;
+  }
+
+  .income__calc-year {
+    padding-right: 7px;
+    padding: 12px 0px 12px 0px;
+  }
+
+  .income__input {
+    padding-right: 10px;
+  }
+
+  .income__calc-invest .income__calc-title {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .income__calc-test :nth-child(3) {
+    width: 199px;
+  }
+
+  .income__calc-earnings {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .income__calc-all {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .income__table-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .income__table-coll {
+    border-bottom: none;
+    font-size: 24px;
+  }
+
+  .income__second-coll {
+    border-right: none;
+    padding-right: 57px;
+  }
+
+  .income__third-coll {
+    padding-left: 0;
+    text-align: center;
+    max-width: 100%;
+    font-size: 12px;
+  }
+
+  .income__dop-table {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .income__dop-table-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+    width: 100%;
+    text-align: end;
+  }
+
+  .income__dop-table-coll-text {
+    padding-left: 0;
+    text-align: center;
+    max-width: 100%;
+    padding-top: 0;
+    font-size: 12px;
+  }
+
+  .income__strategy-portfplio {
+    display: block;
+  }
+
+  .income__model-portfolio {
+    padding-left: 14px;
+    padding-top: 24px;
+  }
+
+  .income__foot-is-block {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .income__partners {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .income__button {
+    margin: 0 auto;
+  }
+
+  .income__table-row-two {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .dop-first {
+    padding-bottom: 18px;
+    padding-top: 13px;
+    padding-right: 46px;
+  }
+
+  .dop-second {
+    padding-top: 13px;
+  }
+
+  .income__inver-year {
+    font-size: 16px;
+  }
+
+  .income__dop-table-coll {
+    font-size: 24px;
+  }
+
+  .income__strategy {
+    padding-top: 25px;
+  }
+
+  .income__strategy-percent-rub {
+    display: block;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .why__head-logo {
+    -webkit-flex-basis: 38.8%;
+    -ms-flex-preferred-size: 38.8%;
+    flex-basis: 38.8%;
+  }
+
+  .why__head-top-word:before {
+    width: 65.6vw;
+  }
+
+  .why__main-null {
+    -webkit-flex-basis: 50.5%;
+    -ms-flex-preferred-size: 50.5%;
+    flex-basis: 50.5%;
+  }
+
+  .why__main-text:before {
+    width: 65vw;
+  }
+}
+
+@media (max-width: 484px) {
+  .why__head-logo {
+    -webkit-flex-basis: 42.8%;
+    -ms-flex-preferred-size: 42.8%;
+    flex-basis: 42.8%;
+  }
+
+  .why__head-top-word:before {
+    width: 64.3vw;
+  }
+
+  .why__main-null {
+    -webkit-flex-basis: 50.5%;
+    -ms-flex-preferred-size: 50.5%;
+    flex-basis: 50.5%;
+  }
+
+  .why__main-text:before {
+    width: 65vw;
+    background-color: white;
+  }
+}
+
+@media (max-width: 480px) {
+  .strategy__all-strategys-percent-rub {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .strategy__block-span {
+    padding-bottom: 15px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .strategy {
+    margin-top: 0;
+    padding-top: 40px;
+  }
+
+  .strategy__all-strategys {
+    padding-top: 30px;
+  }
+
+  .strategy__all-strategys-top {
+    padding-top: 30px;
+  }
+
+  .strategy__logo {
+    margin-bottom: 20px;
+  }
+
+  .strategy__all-strategys-portfolio {
+    display: block;
+  }
+
+  .strategy__top-word {
+    width: auto;
+  }
+
+  .strategy__model-portfolio {
+    padding-left: 18px;
+    padding-top: 24px;
+  }
+
+  .strategy__model-portfolio-paragraphs .strategy__top-paragraph {
+    width: 100%;
+  }
+
+  .strategy-name {
+    font-size: 29px;
+  }
+
+  .strategy__foot-is-block {
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+  }
+
+  .strategy__but-and-logo {
+    display: block;
+    text-align: center;
+  }
+
+  .strategy__but-and-logo .strategy__svg-image {
+    line-height: 0;
+    width: 36px;
+    height: 36px;
+  }
+
+  .strategy__but-text {
+    margin-right: 0;
+  }
+
+  .strategy__partners {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 35px;
+  }
+
+  .strategy__model-portfolio-paragraphs {
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 470px) {
+  .why__head-logo {
+    -webkit-flex-basis: 49.8%;
+    -ms-flex-preferred-size: 49.8%;
+    flex-basis: 49.8%;
+  }
+
+  .why__head-top-word:before {
+    width: 62.3vw;
+  }
+
+  .why__main-null {
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+  }
+
+  .why__main-text:before {
+    width: 100%;
+  }
+}
+
+@media (max-width: 466px) {
+  .header {
+    padding-bottom: 218px;
+  }
+
+  .header__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .header__mobile-image {
+    display: block;
+  }
+
+  .header__top-numb-phone-img,
+  .header__top-numb a {
+    display: none;
+  }
+
+  .header__top {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .header__sub-title {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+
+  .header__sub-title_red {
+    margin-bottom: 44px;
+  }
+}
+
+@media (max-width: 446px) {
+  .why__head-logo {
+    -webkit-flex-basis: 56.8%;
+    -ms-flex-preferred-size: 56.8%;
+    flex-basis: 56.8%;
+  }
+
+  .why__head-top-word:before {
+    width: 61.9vw;
+  }
+
+  .why__main-null {
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+  }
+
+  .why__main-text:before {
+    width: 100%;
+  }
+}
+
+@media (max-width: 411px) {
+  .why__head-logo {
+    -webkit-flex-basis: 74.8%;
+    -ms-flex-preferred-size: 74.8%;
+    flex-basis: 74.8%;
+  }
+
+  .why__head-top-word:before {
+    width: 56.3vw;
+  }
+
+  .why__main-null {
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+  }
+
+  .why__main-text:before {
+    width: 100%;
+  }
+
+  .why__about-phone {
+    display: block;
+  }
+
+  .why__phone {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .why__about {
+    margin-left: 50%;
+    -webkit-transform: translate(-50%, 10px);
+    -ms-transform: translate(-50%, 10px);
+    transform: translate(-50%, 10px);
+    display: inline-block;
+  }
+}
+
+@media (max-width: 396px) {
+  .why__head-top-word:before {
+    width: 107%;
+  }
+}
+
+@media (max-width: 322px) {
+  .header {
+    padding-bottom: 218px;
+  }
+
+  .header__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .header__mobile-image {
+    display: block;
+  }
+
+  .header__top-numb-phone-img,
+  .header__top-numb a {
+    display: none;
+  }
+
+  .header__top {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .header__sub-title {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+
+  .header__sub-title_red {
+    margin-bottom: 44px;
+  }
+}
+
+@media (max-width: 320px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .footer__block-cont {
+    display: block;
+  }
+
+  .footer__logo {
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  .footer__block-logo:before {
+    display: none;
+  }
+
+  .footer__block-logo {
+    height: auto;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    background-color: white;
+  }
+
+  .footer__text {
+    width: 100%;
+  }
+
+  .income__midle-lvl {
+    margin-right: 5px;
+  }
+
+  .income {
+    padding-top: 32px;
+  }
+
+  .income__calc {
+    width: 100%;
+  }
+
+  .income__calc-title {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .income__calc-maney {
+    padding: 0px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .income__calc-month {
+    padding-right: 7px;
+    padding: 12px 0px 12px 0px;
+  }
+
+  .income__calc-year {
+    padding-right: 7px;
+    padding: 12px 0px 12px 0px;
+  }
+
+  .income__input {
+    padding-right: 10px;
+  }
+
+  .income__calc-invest .income__calc-title {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .income__calc-test :nth-child(3) {
+    width: 199px;
+  }
+
+  .income__calc-earnings {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .income__calc-all {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .income__table-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .income__table-coll {
+    border-bottom: none;
+    font-size: 24px;
+  }
+
+  .income__second-coll {
+    border-right: none;
+    padding-right: 57px;
+  }
+
+  .income__third-coll {
+    padding-left: 0;
+    text-align: center;
+    max-width: 100%;
+    font-size: 12px;
+  }
+
+  .income__dop-table {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .income__dop-table-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+    width: 100%;
+    text-align: end;
+  }
+
+  .income__dop-table-coll-text {
+    padding-left: 0;
+    text-align: center;
+    max-width: 100%;
+    padding-top: 0;
+    font-size: 12px;
+  }
+
+  .income__strategy-portfplio {
+    display: block;
+  }
+
+  .income__model-portfolio {
+    padding-left: 14px;
+    padding-top: 24px;
+  }
+
+  .income__foot-is-block {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .income__partners {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .income__button {
+    margin: 0 auto;
+  }
+
+  .income__table-row-two {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .dop-first {
+    padding-bottom: 18px;
+    padding-top: 13px;
+    padding-right: 46px;
+  }
+
+  .dop-second {
+    padding-top: 13px;
+  }
+
+  .income__inver-year {
+    font-size: 16px;
+  }
+
+  .income__dop-table-coll {
+    font-size: 24px;
+  }
+
+  .income__strategy {
+    padding-top: 25px;
+  }
+
+  #income__slider {
+    width: 345px;
+  }
+
+  .more-det {
+    padding-top: 40px;
+  }
+
+  .more-det__logo-image {
+    margin-bottom: 19px;
+  }
+
+  .more-det__top-word {
+    margin-bottom: 50px;
+  }
+
+  .more-det__bcg-white {
+    display: block;
+    margin-left: -webkit-calc((100% - 373px) / 2);
+    margin-left: calc((100% - 373px) / 2);
+  }
+
+  .more-det__portfolio-svg {
+    padding-top: 39px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .more-det__bcg-text {
+    padding-top: 30px;
+    padding-left: 14px;
+    padding-right: 9px;
+  }
+
+  .more-det__bcg-text p {
+    width: auto;
+  }
+
+  iframe {
+    width: 375px;
+    margin-left: -webkit-calc((100% - 375px) / 2);
+    margin-left: calc((100% - 375px) / 2);
+    height: 278px;
+  }
+
+  .more-det__background {
+    display: none;
+  }
+
+  .more-det__video {
+    padding-bottom: 60px;
+  }
+
+  .why__head-logo {
+    -webkit-flex-basis: 46%;
+    -ms-flex-preferred-size: 46%;
+    flex-basis: 46%;
+  }
+
+  .why__head-top-word .title {
+    display: none;
+  }
+
+  .why__head-logo:before {
+    width: 0;
+    height: 0;
+  }
+
+  .why__head-top-word {
+    padding-top: 77px;
+  }
+
+  .why__head-top-word:before {
+    width: 63vw;
+    bottom: 54px;
+    height: 8vh;
+  }
+
+  .why__main {
+    display: block;
+  }
+
+  .why__main-null {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .why__main-null .title {
+    display: block;
+  }
+
+  .why__main-text:before {
+    background-color: white;
+  }
+
+  .why__reliably {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 0;
+  }
+
+  .why__available {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 0;
+  }
+
+  .why__conveniently {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 0;
+  }
+
+  .why__about-phone {
+    display: block;
+  }
+
+  .why__phone {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .why__about {
+    border-bottom: solid 1px #c4c4c4;
+    height: 24px;
+  }
+
+  .why__questions {
+    display: block;
+    text-align: center;
+  }
+
+  .why__questions-more h3 {
+    font-size: 29px;
+  }
+
+  .why__questions-buttons {
+    display: block;
+  }
+
+  .why__asc {
+    margin-bottom: 38px;
+    margin-top: 24px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 322px) {
+  #income__slider {
+    width: 345px;
+  }
+}
